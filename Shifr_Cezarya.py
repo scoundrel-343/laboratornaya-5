@@ -27,7 +27,7 @@ def decrypt(text, shift):
     return decrypted_text
 
 # Получаем данные от пользователя
-alphabet_of_exceptions = ' !@#$%^&*()_+{["|\/}]№;%:*-=~1234567890'
+alphabet_of_exceptions = ' <>,.!?@#$%^&*()_+{["|\/}]№;%:*-=~1234567890'
 while True:
         flag_1 = True
         flag_2 = True
